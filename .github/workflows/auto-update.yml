@@ -1,0 +1,25 @@
+name: Auto Update
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  auto-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+
+      - name: Commit and Push Changes
+        run: |
+          git add .
+          git commit -m "Auto-update files" || echo "No changes to commit"
+          git push origin main
