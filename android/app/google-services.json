@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "980903205715",
+    "project_id": "masu-learning-app-a4974",
+    "storage_bucket": "masu-learning-app-a4974.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980903205715:android:67f0b658b5d75ec4be5fa6",
+        "android_client_info": {
+          "package_name": "com.masulearning.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLsVjwsqZINvZbaBtpgeDGeZG1pIJJC3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
